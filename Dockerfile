@@ -23,5 +23,5 @@ RUN npm install -g serve
 
 EXPOSE 3000
 
-# ✅ Escucha correctamente en todas las interfaces
-CMD ["npx", "serve", "-s", "dist", "-l", "0.0.0.0:3000", "--cors"]
+# ✅ Compatible con la versión nueva de "serve"
+CMD ["npx", "serve", "-s", "dist", "--listen", "tcp://0.0.0.0:3000"]
