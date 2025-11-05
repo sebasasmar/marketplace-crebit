@@ -1,0 +1,51 @@
+nombre,cedula,edad,email,telefono,pagaduria,monto_solicitado,vertical,score,riesgo,intencion,precio,estado,vendido,convertido,fecha_creacion,fecha_venta,empresa_compradora_id
+"Juan Pérez",1023456789,45,"juan.perez@example.com","3101234567","Colpensiones",50000000,"Colpensiones",810,"bajo","alta",25000,"ofertado",false,false,"2024-07-10T10:00:00Z",,
+"Maria García",1098765432,52,"maria.garcia@example.com","3112345678","Fopep",20000000,"Fopep",650,"medio","media",15000,"ofertado",false,false,"2024-07-10T11:00:00Z",,
+"Carlos Rodriguez",1034567890,61,"carlos.r@example.com","3123456789","Magisterio",75000000,"Magisterio",450,"alto","baja",8000,"ofertado",false,false,"2024-07-10T12:00:00Z",,
+"Ana Martinez (Vendida)",1045678901,38,"ana.martinez@example.com","3134567890","Fuerzas Militares",30000000,"Fuerzas Militares",780,"bajo","alta",28000,"vendido",true,true,"2024-07-09T09:00:00Z","2024-07-09T14:00:00Z","d826b07b-06b8-4421-9675-262a12345678"
+"Luis Hernandez",1056789012,55,"luis.h@example.com","3145678901","Colpensiones",15000000,"Colpensiones",720,"medio","media",18000,"ofertado",false,false,"2024-07-10T13:00:00Z",,
+"Sofia Gomez",1067890123,41,"sofia.gomez@example.com","3156789012","Fopep",45000000,"Fopep",850,"bajo","alta",29000,"ofertado",false,false,"2024-07-10T14:00:00Z",,
+"Javier Diaz",1078901234,68,"javier.diaz@example.com","3167890123","Magisterio",90000000,"Magisterio",380,"alto","baja",7500,"ofertado",false,false,"2024-07-10T15:00:00Z",,
+"Laura Torres (Vendida)",1089012345,49,"laura.t@example.com","3178901234","Fuerzas Militares",25000000,"Fuerzas Militares",790,"bajo","media",26000,"vendido",true,false,"2024-07-08T10:00:00Z","2024-07-08T11:30:00Z","d826b07b-06b8-4421-9675-262a12345678"
+"David Moreno",1090123456,35,"david.moreno@example.com","3189012345","Colpensiones",60000000,"Colpensiones",680,"medio","alta",16000,"ofertado",false,false,"2024-07-10T16:00:00Z",,
+"Valentina Rojas",1101234567,58,"valentina.r@example.com","3190123456","Fopep",10000000,"Fopep",900,"bajo","alta",30000,"ofertado",false,false,"2024-07-10T17:00:00Z",,
+"Andres Jimenez",1112345678,63,"andres.j@example.com","3201234567","Magisterio",80000000,"Magisterio",510,"medio","baja",12000,"ofertado",false,false,"2024-07-10T18:00:00Z",,
+"Camila Muñoz (Rechazada)",1123456789,47,"camila.m@example.com","3212345678","Fuerzas Militares",40000000,"Fuerzas Militares",620,"medio","media",14000,"rechazado",false,false,"2024-07-09T11:00:00Z",,
+"Daniel Castro",1134567890,51,"daniel.castro@example.com","3223456789","Colpensiones",35000000,"Colpensiones",750,"bajo","alta",22000,"ofertado",false,false,"2024-07-10T19:00:00Z",,
+"Gabriela Ortiz",1145678901,44,"gabriela.o@example.com","3234567890","Fopep",55000000,"Fopep",700,"medio","media",17500,"ofertado",false,false,"2024-07-10T20:00:00Z",,
+"Mateo Vargas",1156789012,70,"mateo.vargas@example.com","3001234567","Magisterio",100000000,"Magisterio",320,"alto","baja",6000,"ofertado",false,false,"2024-07-10T21:00:00Z",,
+"Isabella Rios (Vendida)",1167890123,53,"isabella.r@example.com","3012345678","Fuerzas Militares",22000000,"Fuerzas Militares",820,"bajo","alta",27000,"vendido",true,true,"2024-07-08T14:00:00Z","2024-07-08T18:00:00Z","d826b07b-06b8-4421-9675-262a12345678"
+"Nicolas Peña",1178901234,48,"nicolas.p@example.com","3023456789","Colpensiones",48000000,"Colpensiones",760,"bajo","media",23000,"ofertado",false,false,"2024-07-11T08:00:00Z",,
+"Mariana Herrera",1189012345,59,"mariana.h@example.com","3034567890","Fopep",18000000,"Fopep",690,"medio","alta",16500,"ofertado",false,false,"2024-07-11T09:00:00Z",,
+"Samuel Medina",1190123456,65,"samuel.m@example.com","3045678901","Magisterio",85000000,"Magisterio",480,"alto","media",9000,"ofertado",false,false,"2024-07-11T10:00:00Z",,
+"Luciana Guerrero (Reservada)",1201234567,42,"luciana.g@example.com","3056789012","Fuerzas Militares",33000000,"Fuerzas Militares",740,"medio","alta",19000,"reservado",false,false,"2024-07-11T11:00:00Z",,
+"Emilio Leon",1212345678,56,"emilio.leon@example.com","3109876543","Colpensiones",28000000,"Colpensiones",880,"bajo","alta",29500,"ofertado",false,false,"2024-07-11T12:00:00Z",,
+"Renata Gil",1223456789,50,"renata.gil@example.com","3118765432","Fopep",65000000,"Fopep",580,"medio","media",13000,"ofertado",false,false,"2024-07-11T13:00:00Z",,
+"Felipe Parra",1234567890,67,"felipe.parra@example.com","3127654321","Magisterio",95000000,"Magisterio",410,"alto","baja",7000,"ofertado",false,false,"2024-07-11T14:00:00Z",,
+"Antonia Soto (Vendida)",1245678901,46,"antonia.soto@example.com","3136543210","Fuerzas Militares",50000000,"Fuerzas Militares",800,"bajo","alta",26000,"vendido",true,false,"2024-07-07T12:00:00Z","2024-07-07T16:00:00Z","d826b07b-06b8-4421-9675-262a12345678"
+"Benjamin Luna",1256789012,54,"benjamin.luna@example.com","3145432109","Colpensiones",22000000,"Colpensiones",730,"medio","media",18500,"ofertado",false,false,"2024-07-11T15:00:00Z",,
+"Elena Campos",1267890123,60,"elena.campos@example.com","3154321098","Fopep",38000000,"Fopep",830,"bajo","alta",27500,"ofertado",false,false,"2024-07-11T16:00:00Z",,
+"Joaquin Cardenas",1278901234,69,"joaquin.c@example.com","3163210987","Magisterio",70000000,"Magisterio",350,"alto","baja",6500,"ofertado",false,false,"2024-07-11T17:00:00Z",,
+"Victoria Marin (Reservada)",1289012345,43,"victoria.m@example.com","3172109876","Fuerzas Militares",42000000,"Fuerzas Militares",670,"medio","media",15500,"reservado",false,false,"2024-07-11T18:00:00Z",,
+"Martin Silva",1290123456,57,"martin.silva@example.com","3181098765","Colpensiones",12000000,"Colpensiones",770,"bajo","media",24000,"ofertado",false,false,"2024-07-11T19:00:00Z",,
+"Regina Ponce",1301234567,51,"regina.ponce@example.com","3190987654","Fopep",72000000,"Fopep",600,"medio","alta",14000,"ofertado",false,false,"2024-07-11T20:00:00Z",,
+"Gerardo Vega",1312345678,66,"gerardo.vega@example.com","3209876543","Magisterio",88000000,"Magisterio",430,"alto","baja",8500,"ofertado",false,false,"2024-07-11T21:00:00Z",,
+"Clara Solano (Vendida)",1323456789,48,"clara.solano@example.com","3218765432","Fuerzas Militares",36000000,"Fuerzas Militares",840,"bajo","alta",28500,"vendido",true,true,"2024-07-06T15:00:00Z","2024-07-06T19:00:00Z","d826b07b-06b8-4421-9675-262a12345678"
+"Maximiliano Franco",1334567890,53,"max.franco@example.com","3227654321","Colpensiones",52000000,"Colpensiones",710,"medio","media",17000,"ofertado",false,false,"2024-07-12T08:00:00Z",,
+"Jimena Duran",1345678901,62,"jimena.duran@example.com","3236543210","Fopep",26000000,"Fopep",790,"bajo","alta",25500,"ofertado",false,false,"2024-07-12T09:00:00Z",,
+"Bruno arias",1356789012,64,"bruno.arias@example.com","3006543210","Magisterio",78000000,"Magisterio",490,"medio","baja",11000,"ofertado",false,false,"2024-07-12T10:00:00Z",,
+"Alicia Navarro (Reservada)",1367890123,45,"alicia.n@example.com","3015432109","Fuerzas Militares",45000000,"Fuerzas Militares",640,"medio","media",15000,"reservado",false,false,"2024-07-12T11:00:00Z",,
+"Hector Ramos",1378901234,58,"hector.ramos@example.com","3024321098","Colpensiones",19000000,"Colpensiones",920,"bajo","alta",31000,"ofertado",false,false,"2024-07-12T12:00:00Z",,
+"Lola Ibarra",1389012345,52,"lola.ibarra@example.com","3033210987","Fopep",68000000,"Fopep",550,"medio","media",12500,"ofertado",false,false,"2024-07-12T13:00:00Z",,
+"Ivan Guzman",1390123456,68,"ivan.guzman@example.com","3042109876","Magisterio",92000000,"Magisterio",400,"alto","baja",7000,"ofertado",false,false,"2024-07-12T14:00:00Z",,
+"Elisa Mora (Vendida)",1401234567,49,"elisa.mora@example.com","3051098765","Fuerzas Militares",29000000,"Fuerzas Militares",770,"bajo","media",24500,"vendido",true,false,"2024-07-05T09:00:00Z","2024-07-05T13:00:00Z","d826b07b-06b8-4421-9675-262a12345678"
+"Ricardo Paredes",1412345678,55,"ricardo.p@example.com","3102345678","Colpensiones",43000000,"Colpensiones",720,"medio","alta",18000,"ofertado",false,false,"2024-07-12T15:00:00Z",,
+"Silvia Bravo",1423456789,59,"silvia.bravo@example.com","3113456789","Fopep",32000000,"Fopep",860,"bajo","alta",29000,"ofertado",false,false,"2024-07-12T16:00:00Z",,
+"Oscar Galindo",1434567890,63,"oscar.galindo@example.com","3124567890","Magisterio",82000000,"Magisterio",460,"alto","media",9500,"ofertado",false,false,"2024-07-12T17:00:00Z",,
+"Andrea Rojas (Rechazada)",1445678901,47,"andrea.r@example.com","3135678901","Fuerzas Militares",38000000,"Fuerzas Militares",610,"medio","baja",13500,"rechazado",false,false,"2024-07-08T16:00:00Z",,
+"Fabian Cordoba",1456789012,56,"fabian.c@example.com","3146789012","Colpensiones",24000000,"Colpensiones",780,"bajo","media",25000,"ofertado",false,false,"2024-07-12T18:00:00Z",,
+"Daniela Sierra (Vendida)",1467890123,51,"daniela.s@example.com","3157890123","Fopep",60000000,"Fopep",660,"medio","alta",16000,"vendido",true,false,"2024-07-04T10:00:00Z","2024-07-04T15:30:00Z","d826b07b-06b8-4421-9675-262a12345678"
+"Sergio Ocampo (Reservada)",1478901234,67,"sergio.o@example.com","3168901234","Magisterio",89000000,"Magisterio",530,"medio","media",11500,"reservado",false,false,"2024-07-12T19:00:00Z",,
+"Valeria Rios (Vendida)",1489012345,46,"valeria.r@example.com","3179012345","Fuerzas Militares",47000000,"Fuerzas Militares",810,"bajo","alta",27000,"vendido",true,false,"2024-07-03T11:00:00Z","2024-07-03T14:00:00Z","d826b07b-06b8-4421-9675-262a12345678"
+"Matias Naranjo (Reservada)",1490123456,54,"matias.n@example.com","3180123456","Colpensiones",31000000,"Colpensiones",690,"medio","alta",16500,"reservado",false,false,"2024-07-12T20:00:00Z",,
+"Sara Nieto",1501234567,60,"sara.nieto@example.com","3191234567","Fopep",21000000,"Fopep",910,"bajo","alta",30500,"ofertado",false,false,"2024-07-12T21:00:00Z",,

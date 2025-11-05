@@ -1,0 +1,45 @@
+/* stylelint-disable */
+/* prettier-ignore-start */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth transitions for interactive elements */
+button, a, input, select, textarea {
+    transition: all 0.2s ease-in-out;
+}
+
+/* Base styles are applied via tailwind classes in index.html, 
+   but this is where you'd put additional global styles */
+
+/* Responsive helpers */
+
+/* Make media elements scale nicely across screen sizes */
+img, picture, video, svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Helpful container utility (mobile-first) */
+.app-container {
+    @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-screen-xl;
+}
+
+/* Table wrapper for horizontal scrolling on small screens */
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Common form control utility to ensure full width on small screens */
+.form-control {
+    @apply w-full rounded-md border border-border-light dark:border-border-dark p-2 bg-card-light dark:bg-card-dark text-text-primary-light dark:text-text-primary-dark;
+}
+
+/* Utility for cards to have consistent responsive padding */
+.card-responsive {
+    @apply bg-card-light dark:bg-card-dark rounded-xl shadow-card-light dark:shadow-card-dark p-4 sm:p-6;
+}
+
+/* prettier-ignore-end */
