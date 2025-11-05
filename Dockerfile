@@ -1,10 +1,12 @@
-# Etapa 1: Compilación de la app
+# -----------------------------
+# Etapa 1: Construcción de la app
+# -----------------------------
 FROM node:20-alpine AS builder
 
-# Establecer directorio de trabajo
+# Establecer el directorio de trabajo
 WORKDIR /app
 
-# Copiar dependencias primero (mejor cacheo)
+# Copiar archivos de dependencias (mejor caché)
 COPY package*.json ./
 
 # Instalar dependencias
@@ -13,26 +15,25 @@ RUN npm ci
 # Copiar el resto del código fuente
 COPY . .
 
-# Construir la aplicación Vite (React + TypeScript)
+# Compilar la aplicación (React + Vite)
 RUN npm run build
 
 
-# Etapa 2: Servir la app ya compilada con un servidor ligero
+# -----------------------------
+# Etapa 2: Servidor de producción
+# -----------------------------
 FROM node:20-alpine
 
 WORKDIR /app
 
-# Copiar solo los archivos de build desde la etapa anterior
+# Copiar solo los archivos generados del build
 COPY --from=builder /app/dist ./dist
 
-# Instalar un servidor web para servir la app
+# Instalar el servidor estático 'serve'
 RUN npm install -g serve
 
-# Exponer el puerto donde corre la app
+# Exponer el puerto (debe coincidir con EasyPanel)
 EXPOSE 3000
 
-# Verificar el contenido del directorio dist
-RUN ls -la dist
-
-# Comando de inicio con más verbosidad
-CMD ["serve", "-s", "dist", "-l", "3000", "--cors", "--debug"]
+# Comando de inicio — importante escuchar en 0.0.0.0
+CMD ["npx", "serve", "-s", "dist", "-l", "0.0.0.0:3000", "--cors"]
